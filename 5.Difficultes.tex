@@ -1,0 +1,21 @@
+\section{Difficultées}
+    La principale difficulté que j'ai rencontré est survenu au début du projet car je voulais tout de
+suite intégrer une base de données et mettre en place un sondage très élaborées avec une fin de soudage sauf que cela était plus compliqué que prévu.
+    Je préfois donc d'utiliser une bdd plus tard.
+
+    J'ai rencontrée des difficultés pour récupérer les informations des utilisateurs, en occurrence avoir leur statut. En effet tous les utilisateurs s'affichaient avec le statut "offline" alors que parfoisl'utilisateur était : 
+    
+        - connecté en dispo
+        
+        - connecté en occupé 
+        
+        - ou absent 
+        
+    Il s'agissait en fait d'un paramètre a activé sur l'api discord pour permet au BOT d'avoir accès aux informations de l'utilisateur. 
+    
+    J'ai finalement réussit à créer un sondage à réponses multiples mais il n'y a pas de temps pour répondre ni de date de fin et les sondages ne sont stockés null part. Le nombre de réponse possible est limité à 10 car il n'y a pas de réaction surpérieur à "10" en chiffre, il faudra sinon utiliser d'autres réactions.
+    
+    
+    J'ai essayé de connecté mon bot à une autre api qui permettait de récupérer des informations sur des chansons tels que son auteur et ses paroles mais la connection echouait à chaque fois, l'api refusait la connection alors que les token et clés étaient passées en paramètres. 
+    Je dois donc ré essayer ou trouver d'ou pourquoi l'api rejette la connexion. 
+    
